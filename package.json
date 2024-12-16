@@ -1,9 +1,9 @@
 {
-  "name": "0l1v3rr.github.io",
+  "name": "harshjannawar",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://0l1v3rr.github.io",
+  "homepage": "https://harshjannawar.me",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
