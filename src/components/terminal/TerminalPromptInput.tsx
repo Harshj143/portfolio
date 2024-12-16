@@ -40,7 +40,7 @@ const TerminalPromptInput: FC<TerminalPromptInputProps> = ({
 
   function handleSubmit(e: FormEvent<HTMLFormElement>): void {
     e.preventDefault();
-    onEnter(input);
+    onEnter(input.toLowerCase());
     setInput("");
   }
 
