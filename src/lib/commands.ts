@@ -90,7 +90,7 @@ const COMMANDS: Record<
 > = {
   kali: () => KALI_LOGO,
   whoami: (username) => username,
-  about: (username) => `Hello, ${username}!
+  about: () => `
     Hi there! 👋 I'm Harsh Jannawar, passionate about cybersecurity 🛡️. I specialize in cloud security ☁️, penetration testing 🔍, vulnerability assessments 🛠️, and ensuring compliance with industry standards ✅. My journey in cybersecurity began with a strong foundation in secure system design 🔒 and real-world threat mitigation. I completed my Bachelor's degree in Cybersecurity 🎓, where I gained a deep understanding of cybersecurity principles and hands-on technical expertise.
 
     My focus is on leveraging leading tools and technologies, including AWS ☁️, Python 🐍, and Bash scripting 💻, to create robust security solutions. With hands-on experience using tools like Wireshark 🌐, Nmap 📡, Metasploit 🚀, and Burp Suite 🔧, I bring a versatile skill set to every challenge.
